@@ -16,12 +16,195 @@
     text-decoration: none;
     list-style-type: none;
     color: #fff;
+    border: none;
+    background-color: transparent;
 }
 body{
     background-image: url(../images/illumination.png);
     background-color: #849D8F;
     background-repeat: no-repeat;
     background-position: top center;
+
     width: 100%;
     height: 100%;
+}
+.header{
+    height: 7.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 2.7rem;
+    margin-top: .9rem;
+    margin-right: 2.7rem;
+}
+
+.logo-navbar img{
+    width: 15.7rem;
+    height: 6.6rem;
+}
+
+.logo-navbar,
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.7rem;
+}
+
+.nav{
+    font-size: var(--fz-normal);
+    font-weight: bold;  
+}
+
+.nav a{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, .2);
+    text-underline-position: under;
+}
+
+.user-button{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.magnifier{
+    border: 1.5rem solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-clip: padding-box;
+
+    width: 3.3rem;
+    height: 3.3rem;
+
+    background-color: rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.25s;
+}
+
+.magnifier img{
+    opacity: 1;
+}   
+
+.magnifier:hover{
+    border: .1rem solid rgba(255, 255, 255, .5);
+    transition: 0.3s;
+}
+
+.entrance{
+    border: 1.3rem solid rgba(255, 255, 255, 0.2);
+    border-top-right-radius:    15% 50%;
+    border-top-left-radius:     15% 50%;
+    border-bottom-right-radius: 15% 50%;
+    border-bottom-left-radius:  15% 50%;
+    background-clip: padding-box;
+
+    background-color: rgba(255, 255, 255, .2);
+
+    width: 9.8rem;
+    height: 3.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+
+    font-size: 1.4rem;
+
+    transition: 0.25s;
+}
+
+.entrance:hover{
+    border: 0.1rem solid rgba(255, 255, 255, .5);
+    transition: 0.3s;
+}
+
+.basket{
+    border: 1.2rem solid rgba(255, 255, 255, .2);
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-top-right-radius:    15% 50%;
+    border-top-left-radius:     15% 50%;
+    border-bottom-right-radius: 15% 50%;
+    border-bottom-left-radius:  15% 50%;
+
+    background-color: rgba(255, 255, 255, .2);
+    width: 10rem;
+    height: 3.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: .7rem;
+
+    font-size: 1.4rem;
+
+    transition: 0.25s;
+}
+
+.basket:hover{
+    border: 0.1rem solid rgba(255, 255, 255, .5);
+
+    transition: 0.3s;
+}
+
+.date{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-right: 2.7rem;
+}
+
+.icecream{
+    background-image: url(../images/ice-cream.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    width: 100vw;
+    height: 58rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icecream p{
+    text-align: center;
+    font-size: var(--fz-big);
+    font-weight: bold;
+}
+
+.icecream button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(#e74a35, #f26843);
+
+    border-image: linear-gradient(#e74a35, #f26843);
+    border-bottom: .05rem solid;
+    background-clip: padding-box;
+
+    border-top-right-radius:    12% 50%;
+    border-top-left-radius:     12% 50%;
+    border-bottom-right-radius: 12% 50%;
+    border-bottom-left-radius:  12% 50%;
+
+    width: 28rem;
+    height: 6.5rem;
+
+    font-size: 3.2rem;
+    font-weight: bold;
+
+    box-shadow: .5rem .5rem 1.3rem rgba(231, 74, 53, .4);
 }
