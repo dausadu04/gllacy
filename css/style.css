@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root{
+    font-size: 62.5%;
+
+    --font-defaut: 'Roboto', sans-serif;
+
+    --fz-big: 6rem;
+    --fz-medium: 3.5rem;
+    --fz-large: 4.5rem;
+    --fz-normal: 1.6rem;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-defaut);
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
 body{
     background-image: url(../images/illumination.png);
     background-color: #849D8F;
