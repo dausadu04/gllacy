@@ -28,7 +28,7 @@ body{
     width: 100vw;
     height: 100vh;
     
-    overflow-y: hidden;
+    overflow-x: hidden;
       
 }
 .header{
@@ -227,9 +227,26 @@ body{
     bottom: 4.4rem;
 
 }
-.fill{
+.empty:nth-child(1){
     background-color: #fff;
 }
+.empty:hover{
+    border: .2rem solid #fff;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .5);
+
+    width: 2.1rem;
+    height: 2.1rem;
+
+    position: relative;
+    bottom: 4.4rem;
+
+}
+
+.empty:visited{
+    background-color: #fff;
+}
+
 .tastes{
     display: flex;
     justify-content: center;
@@ -237,6 +254,7 @@ body{
     gap: 5rem;
 
 }
+
 .raspberry{
     background-image: url(../images/raspberry.png);
     background-repeat: no-repeat;
@@ -369,8 +387,6 @@ body{
     
     text-align: center;
     font-size: 1.6rem;
-
-    
 }
 
 .oranges,
@@ -382,3 +398,4 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
