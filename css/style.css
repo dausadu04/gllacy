@@ -172,24 +172,18 @@ body{
     justify-content: end;
     align-items: center;
     flex-direction: column;
-}
-.icecream img{
-    position: static;
 
+    background-image: url(../images/ice-cream.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    gap:4.1rem;
 }
 
 .icecream p{
     text-align: center;
     font-size: var(--fz-big);
     font-weight: bold;
-}
-
-.button-ellipse{
-    width: 100vw;
-
-    background-image: url(../images/123.png);
-    background-position: top left;
-    background-repeat: no-repeat;
 }
 
 .button button{
@@ -215,4 +209,191 @@ body{
     font-weight: bold;
 
     box-shadow: .5rem .5rem 1.3rem rgba(231, 74, 53, .4);
+}
+.gallery{
+    margin-left: 2.7rem;
+}
+.gallery button{
+    border: .2rem solid #fff;
+    border-radius: 50%;
+
+    width: 2.1rem;
+    height: 2.1rem;
+
+    position: relative;
+    bottom: 4.4rem;
+
+}
+.fill{
+    background-color: #fff;
+}
+.tastes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.raspberry{
+    background-image: url(../images/raspberry.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+    width: 56rem;
+    height: 23.1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.raspberry h2{
+    font-size: var(--fz-medium);
+    font-weight: bold;
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.raspberry p{
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+}
+
+.raspberry button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(#e74a35, #f26843);
+
+    border-image: linear-gradient(#e74a35, #f26843);
+    border-bottom: .05rem solid;
+    background-clip: padding-box;
+
+    border-top-right-radius:    17% 60%;
+    border-top-left-radius:     17% 60%;
+    border-bottom-right-radius: 17% 60%;
+    border-bottom-left-radius:  17% 60%;
+
+    width: 15.5rem;
+    height: 4.6rem;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    margin-top: 3.5rem;
+    margin-left: 37.4rem;
+    padding-bottom: .2rem;
+
+    box-shadow: .5rem .5rem 1.3rem rgba(231, 74, 53, .4);
+}
+
+
+.chocolat{
+    background-image: url(../images/Chocolate.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    width: 56rem;
+    height: 23.1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chocolat h2{
+    font-size: var(--fz-medium);
+    font-weight: bold;
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.chocolat p{
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+}
+
+.chocolat button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(#e74a35, #f26843);
+
+    border-image: linear-gradient(#e74a35, #f26843);
+    border-bottom: .05rem solid;
+    background-clip: padding-box;
+
+    border-top-right-radius:    17% 60%;
+    border-top-left-radius:     17% 60%;
+    border-bottom-right-radius: 17% 60%;
+    border-bottom-left-radius:  17% 60%;
+
+    width: 15.5rem;
+    height: 4.6rem;
+
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    margin-top: 3.5rem;
+    margin-left: 37.4rem;
+    padding-bottom: .2rem;
+
+    box-shadow: .5rem .5rem 1.3rem rgba(231, 74, 53, .4);
+}
+
+.hit{
+    margin-top: 4rem;
+
+    height: 27rem;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hit li{
+    padding-top: 2rem;
+    
+    text-align: center;
+    font-size: 1.6rem;
+
+    
+}
+
+.oranges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coffee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.straw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.creme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
