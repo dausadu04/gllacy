@@ -166,16 +166,16 @@ body{
 }
 
 .icecream{
-    background-image: url(../images/ice-cream.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-
     width: 100vw;
     height: 58rem;
     display: flex;
     justify-content: end;
     align-items: center;
     flex-direction: column;
+}
+.icecream img{
+    position: static;
+
 }
 
 .icecream p{
@@ -184,7 +184,15 @@ body{
     font-weight: bold;
 }
 
-.icecream button{
+.button-ellipse{
+    width: 100vw;
+
+    background-image: url(../images/123.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.button button{
     display: flex;
     justify-content: center;
     align-items: center;
