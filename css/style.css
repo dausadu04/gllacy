@@ -170,7 +170,7 @@ body{
 
 .icecream{
     width: 100vw;
-    height: 58rem;
+    height: 70vh;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -261,8 +261,8 @@ body{
     background-repeat: no-repeat;
     background-position: top left;
 
-    width: 56rem;
-    height: 23.1rem;
+    width: 58rem;
+    height: 24rem;
 
     display: flex;
     flex-direction: column;
@@ -319,8 +319,8 @@ body{
     background-repeat: no-repeat;
     background-position: top right;
 
-    width: 56rem;
-    height: 23.1rem;
+    width: 58rem;
+    height: 24rem;
 
     display: flex;
     flex-direction: column;
@@ -330,7 +330,7 @@ body{
     font-size: var(--fz-medium);
     font-weight: bold;
 
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-top: 2rem;
 }
 
@@ -339,7 +339,7 @@ body{
     font-weight: bold;
 
     margin-top: 2.8rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 .chocolat button{
@@ -365,7 +365,7 @@ body{
     font-weight: bold;
 
     margin-top: 3.5rem;
-    margin-left: 37.4rem;
+    margin-left: 39.4rem;
     padding-bottom: .2rem;
 
     box-shadow: .5rem .5rem 1.3rem rgba(231, 74, 53, .4);
