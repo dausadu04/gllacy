@@ -253,6 +253,7 @@ body{
     align-items: center;
     gap: 5rem;
 
+    margin-top: 5%;
 }
 
 .raspberry{
@@ -371,9 +372,9 @@ body{
 }
 
 .hit{
-    margin-top: 4rem;
+    margin-top: 4%;
 
-    height: 27rem;
+    height: 27%;
     width: 100vw;
     
     display: flex;
